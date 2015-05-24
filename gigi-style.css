@@ -1,0 +1,92 @@
+
+body {
+	background-color: #D8D8D8;
+	font-size: 1.5em;
+	font-family: arial;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(199, 0, 0, 0.72);
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	text-transform: capitalize;
+	margin: 8px;
+	text-decoration: overline;
+	color: black;
+}
+
+p, ol {
+	margin: 25px 0;
+}  /* I tried to put together different tags with same style
+      and it works, I think it's ok in this way */
+
+ul {
+	list-style-type: square;
+	margin: 25px 0;
+}
+
+li {
+    font-size: 21px;
+	line-height: 28px;
+}
+
+.main-title {
+	box-shadow: 0px 0px 15px 0px #F00;
+	padding: 2px;
+}
+
+.lesson {
+    padding: 20px 40px;
+    margin: 20px 20px;
+}
+
+.concept {
+	background-color: white;
+    color: rgba(199, 0, 0, 0.9);
+    padding: 15px 40px;
+    margin: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow:  0px 2px 5px 0px #F00;
+}
+
+.concept-title {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 28px;
+	text-transform: capitalize;
+	border-bottom: 2px solid #000000;
+	margin: 5px;
+}
+
+.concept-description {
+	margin: 5px;
+	text-align: justify;
+} 
+
+.screenshot_description {
+	display: flex;
+}
+
+.screenshot {
+	align-self: center;
+	text-align: center;
+}  /* I don't think it's a problem that align-self and
+      text-align are together under the same class but for
+      different elements */
+
+.boxmodel-image{
+    height: 300px;
+}
+
+.boxmodel-description {
+	max-width: 700px;
+}
